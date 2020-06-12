@@ -386,6 +386,14 @@
 #endif
 
 #if HAS_GRAPHICAL_LCD
+  #define FSMC_UPSCALE 2
+  #define LCD_PIXEL_OFFSET_X 8
+  #define LCD_PIXEL_OFFSET_Y 5
+  #define LCD_FULL_PIXEL_WIDTH 320
+  #define LCD_FULL_PIXEL_HEIGHT 240
+  #define LCD_PIXEL_WIDTH 150
+  #define LCD_PIXEL_HEIGHT  88
+
   #ifndef LCD_PIXEL_WIDTH
     #define LCD_PIXEL_WIDTH 128
   #endif
