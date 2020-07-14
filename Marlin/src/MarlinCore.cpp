@@ -60,10 +60,9 @@
 #include "gcode/queue.h"
 
 #if ENABLED(TFT_LVGL_UI)
-  #include "lvgl.h"
-  #include "lcd/extui/lib/mks_ui/tft_lvgl_configuration.h"
-  #include "lcd/extui/lib/mks_ui/draw_ui.h"
-  #include "lcd/extui/lib/mks_ui/mks_hardware_test.h"
+  #include "tft_lvgl_configuration.h"
+  #include "draw_ui.h"
+  #include "mks_hardware_test.h"
 #endif
 
 #if ENABLED(DWIN_CREALITY_LCD)

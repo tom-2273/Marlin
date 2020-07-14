@@ -19,7 +19,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-#include "../../../../inc/MarlinConfigPre.h"
+#include "../../inc/MarlinConfigPre.h"
 
 #if ENABLED(TFT_LVGL_UI)
 
@@ -32,19 +32,19 @@
   #include "SPI_TFT.h"
 #endif
 
-#include "../../../../MarlinCore.h"
-#include "../../../../sd/cardreader.h"
-#include "../../../../module/motion.h"
-#include "../../../../module/planner.h"
+#include "../../MarlinCore.h"
+#include "../../sd/cardreader.h"
+#include "../../module/motion.h"
+#include "../../module/planner.h"
 
 #include "pic_manager.h"
 
 #if ENABLED(POWER_LOSS_RECOVERY)
-  #include "../../../../feature/powerloss.h"
+  #include "../../feature/powerloss.h"
 #endif
 
 #if ENABLED(PARK_HEAD_ON_PAUSE)
-  #include "../../../../feature/pause.h"
+  #include "../../feature/pause.h"
 #endif
 
 #include "draw_ui.h"

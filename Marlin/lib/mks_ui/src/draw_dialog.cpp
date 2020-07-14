@@ -24,7 +24,7 @@
  * draw_dialog.cpp
  */
 
-#include "../../../../inc/MarlinConfigPre.h"
+#include "../../inc/MarlinConfigPre.h"
 
 #if ENABLED(TFT_LVGL_UI)
 
@@ -36,20 +36,20 @@
 //#include "../lvgl/src/lv_core/lv_disp.h"
 //#include "../lvgl/src/lv_core/lv_refr.h"
 
-#include "../../../../MarlinCore.h"
-#include "../../../../sd/cardreader.h"
-#include "../../../../gcode/queue.h"
-#include "../../../../module/temperature.h"
-#include "../../../../module/planner.h"
+#include "../../MarlinCore.h"
+#include "../../sd/cardreader.h"
+#include "../../gcode/queue.h"
+#include "../../module/temperature.h"
+#include "../../module/planner.h"
 
 #if ENABLED(POWER_LOSS_RECOVERY)
-  #include "../../../../feature/powerloss.h"
+  #include "../../feature/powerloss.h"
 #endif
 
 #if ENABLED(PARK_HEAD_ON_PAUSE)
-  #include "../../../../feature/pause.h"
+  #include "../../feature/pause.h"
 #endif
-#include "../../../../gcode/gcode.h"
+#include "../../gcode/gcode.h"
 
 static lv_obj_t * scr;
 extern uint8_t sel_id;

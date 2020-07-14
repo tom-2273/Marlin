@@ -19,7 +19,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-#include "../../../../inc/MarlinConfigPre.h"
+#include "../../inc/MarlinConfigPre.h"
 
 #if ENABLED(TFT_LVGL_UI)
 
@@ -32,7 +32,7 @@
 //#include "../lvgl/src/lv_core/lv_disp.h"
 //#include "../lvgl/src/lv_core/lv_refr.h"
 
-#include "../../../../MarlinCore.h"
+#include "../../MarlinCore.h"
 #if ENABLED(SPI_GRAPHICAL_TFT)
   #include "SPI_TFT.h"
 #endif

@@ -19,11 +19,11 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-#include "../../../../inc/MarlinConfigPre.h"
+#include "../../inc/MarlinConfigPre.h"
 
 #if ENABLED(TFT_LVGL_UI)
 
-#include "../../../../inc/MarlinConfig.h"
+#include "../../inc/MarlinConfig.h"
 #include "lvgl.h"
 #include "pic_manager.h"
 

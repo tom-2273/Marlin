@@ -19,7 +19,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-#include "../../../../inc/MarlinConfigPre.h"
+#include "../../inc/MarlinConfigPre.h"
 
 #if ENABLED(TFT_LVGL_UI)
 
@@ -31,19 +31,19 @@
 //#include "../../MarlinCore.h"
 #include "draw_ui.h"
 
-#include "../../../../MarlinCore.h"
-#include "../../../../module/temperature.h"
-#include "../../../../gcode/queue.h"
+#include "../../MarlinCore.h"
+#include "../../module/temperature.h"
+#include "../../gcode/queue.h"
 #if ENABLED(POWER_LOSS_RECOVERY)
-  #include "../../../../../feature/powerloss.h"
+  #include "../../../feature/powerloss.h"
 #endif
 
-#include "../../../../gcode/gcode.h"
-#include "../../../../module/planner.h"
+#include "../../gcode/gcode.h"
+#include "../../module/planner.h"
 
 #if HAS_TRINAMIC_CONFIG
-  #include "../../../../../module/stepper/indirection.h"
-  #include "../../../../../feature/tmc_util.h"
+  #include "../../../module/stepper/indirection.h"
+  #include "../../../feature/tmc_util.h"
 #endif
 
 static lv_obj_t * scr;

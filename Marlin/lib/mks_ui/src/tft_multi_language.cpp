@@ -19,11 +19,11 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-#include "../../../../inc/MarlinConfigPre.h"
+#include "../../inc/MarlinConfigPre.h"
 
 #if ENABLED(TFT_LVGL_UI)
 
-#include "../../../../MarlinCore.h"
+#include "../../MarlinCore.h"
 
 #include "draw_ui.h"
 #include "tft_multi_language.h"

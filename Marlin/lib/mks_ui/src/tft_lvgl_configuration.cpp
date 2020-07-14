@@ -25,15 +25,15 @@
  * @date    2020-02-21
  */
 
-#include "../../../../inc/MarlinConfigPre.h"
+#include "../../inc/MarlinConfigPre.h"
 
 #if ENABLED(TFT_LVGL_UI)
 
-#include "../../../../MarlinCore.h"
+#include "../../MarlinCore.h"
 
 #include "tft_lvgl_configuration.h"
 #include "lvgl.h"
-#include "../../../../feature/touch/xpt2046.h"
+#include "../../feature/touch/xpt2046.h"
 #include "draw_ready_print.h"
 #include "W25Qxx.h"
 #include "pic_manager.h"
@@ -42,7 +42,7 @@
 #include "draw_ui.h"
 
 #if ENABLED(POWER_LOSS_RECOVERY)
-  #include "../../../../feature/powerloss.h"
+  #include "../../feature/powerloss.h"
 #endif
 
 #include <SPI.h>

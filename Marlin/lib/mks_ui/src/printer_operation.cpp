@@ -19,25 +19,25 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-#include "../../../../inc/MarlinConfigPre.h"
+#include "../../inc/MarlinConfigPre.h"
 
 #if ENABLED(TFT_LVGL_UI)
 
-#include "../../../../MarlinCore.h"
+#include "../../MarlinCore.h"
 
 #include "lv_conf.h"
 #include "draw_ui.h"
-#include "../../../../module/temperature.h"
-#include "../../../../module/motion.h"
-#include "../../../../sd/cardreader.h"
-#include "../../../../gcode/queue.h"
+#include "../../module/temperature.h"
+#include "../../module/motion.h"
+#include "../../sd/cardreader.h"
+#include "../../gcode/queue.h"
 
 #if ENABLED(POWER_LOSS_RECOVERY)
-  #include "../../../../feature/powerloss.h"
+  #include "../../feature/powerloss.h"
 #endif
 
-#include "../../../../gcode/gcode.h"
-#include "../../../../module/planner.h"
+#include "../../gcode/gcode.h"
+#include "../../module/planner.h"
 
 extern uint32_t To_pre_view;
 extern uint8_t flash_preview_begin, default_preview_flg, gcode_preview_over;

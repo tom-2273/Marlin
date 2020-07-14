@@ -19,17 +19,17 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-#include "../../../../inc/MarlinConfigPre.h"
+#include "../../inc/MarlinConfigPre.h"
 
 #if ENABLED(TFT_LVGL_UI)
 
-#include "../../../../MarlinCore.h"
+#include "../../MarlinCore.h"
 
 #include "string.h"
 
 #include "pic_manager.h"
 #include "W25Qxx.h"
-#include "../../../../sd/cardreader.h"
+#include "../../sd/cardreader.h"
 #include "draw_ready_print.h"
 #include "mks_hardware_test.h"
 

@@ -19,7 +19,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-#include "../../../../inc/MarlinConfigPre.h"
+#include "../../inc/MarlinConfigPre.h"
 
 #if ENABLED(TFT_LVGL_UI)
 
@@ -37,8 +37,8 @@
 
 #include <stdio.h>
 
-#include "../../../../MarlinCore.h"
-#include "../../../../module/temperature.h"
+#include "../../MarlinCore.h"
+#include "../../module/temperature.h"
 
 //static lv_obj_t *buttonPrint,*buttonTool,*buttonSet;
 static lv_obj_t * scr;

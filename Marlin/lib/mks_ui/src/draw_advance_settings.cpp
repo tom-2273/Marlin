@@ -19,14 +19,14 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-#include "../../../../inc/MarlinConfigPre.h"
+#include "../../inc/MarlinConfigPre.h"
 
 #if ENABLED(TFT_LVGL_UI)
 
 #include "lv_conf.h"
 #include "draw_ui.h"
 
-#include "../../../../MarlinCore.h"
+#include "../../MarlinCore.h"
 
 static lv_obj_t * scr;
 

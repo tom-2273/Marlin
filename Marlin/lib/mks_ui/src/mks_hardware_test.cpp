@@ -19,7 +19,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-#include "../../../../inc/MarlinConfigPre.h"
+#include "../../inc/MarlinConfigPre.h"
 
 #if ENABLED(TFT_LVGL_UI)
 
@@ -34,11 +34,11 @@
   #include "SPI_TFT.h"
 #endif
 
-#include "../../../../MarlinCore.h"
+#include "../../MarlinCore.h"
 #include "pic_manager.h"
-#include "../../../../module/temperature.h"
-#include "../../../../feature/touch/xpt2046.h"
-#include "../../../../sd/cardreader.h"
+#include "../../module/temperature.h"
+#include "../../feature/touch/xpt2046.h"
+#include "../../sd/cardreader.h"
 
 uint8_t pw_det_sta, pw_off_sta, mt_det_sta, mt_det2_sta, mt_det3_sta;
 uint8_t endstopx1_sta, endstopx2_sta, endstopy1_sta, endstopy2_sta, endstopz1_sta, endstopz2_sta;

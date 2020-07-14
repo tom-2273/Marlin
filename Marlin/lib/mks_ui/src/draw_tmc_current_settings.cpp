@@ -19,16 +19,16 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-#include "../../../../inc/MarlinConfigPre.h"
+#include "../../inc/MarlinConfigPre.h"
 
 #if BOTH(TFT_LVGL_UI, HAS_TRINAMIC_CONFIG)
 
 #include "lv_conf.h"
 #include "draw_ui.h"
-#include "../../../../MarlinCore.h"
-#include "../../../../module/planner.h"
-#include "../../../../../module/stepper/indirection.h"
-#include "../../../../../feature/tmc_util.h"
+#include "../../MarlinCore.h"
+#include "../../module/planner.h"
+#include "../../../module/stepper/indirection.h"
+#include "../../../feature/tmc_util.h"
 
 static lv_obj_t * scr;
 

@@ -20,12 +20,12 @@
  *
  */
 
-#include "../../../../inc/MarlinConfigPre.h"
+#include "../../inc/MarlinConfigPre.h"
 
 #if ENABLED(SPI_GRAPHICAL_TFT)
 
 #include <SPI.h>
-#include "../../../../inc/MarlinConfig.h"
+#include "../../inc/MarlinConfig.h"
 #include "SPI_TFT.h"
 #include "pic_manager.h"
 

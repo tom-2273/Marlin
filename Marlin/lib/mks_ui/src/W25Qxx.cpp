@@ -19,13 +19,13 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-#include "../../../../inc/MarlinConfigPre.h"
+#include "../../inc/MarlinConfigPre.h"
 
 #if 1 // ENABLED(SPI_FLASH)
 #if ENABLED(TFT_LVGL_UI)
 
 #include <SPI.h>
-#include "../../../../inc/MarlinConfig.h"
+#include "../../inc/MarlinConfig.h"
 
 #include "W25Qxx.h"
 

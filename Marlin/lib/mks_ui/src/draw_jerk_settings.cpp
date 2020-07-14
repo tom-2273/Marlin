@@ -19,15 +19,15 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-#include "../../../../inc/MarlinConfigPre.h"
+#include "../../inc/MarlinConfigPre.h"
 
 #if BOTH(TFT_LVGL_UI, HAS_CLASSIC_JERK)
 
 #include "lv_conf.h"
 #include "draw_ui.h"
 
-#include "../../../../MarlinCore.h"
-#include "../../../../module/planner.h"
+#include "../../MarlinCore.h"
+#include "../../module/planner.h"
 
 static lv_obj_t * scr;
 

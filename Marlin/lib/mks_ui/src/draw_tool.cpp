@@ -19,7 +19,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-#include "../../../../inc/MarlinConfigPre.h"
+#include "../../inc/MarlinConfigPre.h"
 
 #if ENABLED(TFT_LVGL_UI)
 
@@ -30,8 +30,8 @@
 //#include "../lvgl/src/lv_core/lv_disp.h"
 //#include "../lvgl/src/lv_core/lv_refr.h"
 
-#include "../../../../MarlinCore.h"
-#include "../../../../gcode/queue.h"
+#include "../../MarlinCore.h"
+#include "../../gcode/queue.h"
 
 // static lv_obj_t *buttonMoveZ,*buttonTest,*buttonZ0,*buttonStop,*buttonReturn;
 static lv_obj_t * scr;
