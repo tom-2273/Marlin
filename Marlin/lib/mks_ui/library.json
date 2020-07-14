@@ -1,0 +1,13 @@
+{
+    "name": "mks_ui",
+    "version": "0.0.1",
+    "keywords": "graphics, gui, embedded, littlevgl",
+    "description": "LVGL UI from MKS",
+    "build": {
+	"flags": "-Wl,--start-group",
+        "includeDir": "."
+    },
+    "dependencies": {
+    	"lvgl": "https://github.com/makerbase-mks/MKS-LittlevGL/archive/master.zip"
+    }
+}
