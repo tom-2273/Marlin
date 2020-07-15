@@ -25,7 +25,7 @@
  * @date    2020-02-21
  */
 
-#include "../../inc/MarlinConfigPre.h"
+#include "../../src/inc/MarlinConfigPre.h"
 
 #if ENABLED(TFT_LVGL_UI)
 

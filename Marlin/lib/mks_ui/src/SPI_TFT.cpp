@@ -20,7 +20,7 @@
  *
  */
 
-#include "../../inc/MarlinConfigPre.h"
+#include "../../src/inc/MarlinConfigPre.h"
 
 #if ENABLED(SPI_GRAPHICAL_TFT)
 

@@ -24,7 +24,7 @@
  * draw_dialog.cpp
  */
 
-#include "../../inc/MarlinConfigPre.h"
+#include "../../src/inc/MarlinConfigPre.h"
 
 #if ENABLED(TFT_LVGL_UI)
 

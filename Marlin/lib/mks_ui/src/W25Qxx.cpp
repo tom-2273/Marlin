@@ -19,7 +19,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-#include "../../inc/MarlinConfigPre.h"
+#include "../../src/inc/MarlinConfigPre.h"
 
 #if 1 // ENABLED(SPI_FLASH)
 #if ENABLED(TFT_LVGL_UI)

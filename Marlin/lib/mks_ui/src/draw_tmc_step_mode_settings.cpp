@@ -19,7 +19,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-#include "../../inc/MarlinConfigPre.h"
+#include "../../src/inc/MarlinConfigPre.h"
 
 #if BOTH(TFT_LVGL_UI, HAS_STEALTHCHOP)
 

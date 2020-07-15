@@ -20,7 +20,7 @@
  *
  */
 
-#include "../../inc/MarlinConfig.h"
+#include "../../src/inc/MarlinConfig.h"
 
 #if ENABLED(TFT_LVGL_UI)
 
