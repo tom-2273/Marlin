@@ -114,7 +114,7 @@ uint16_t XPT2046::getRawData(const XPTCoordinate coordinate) {
 }
 
 uint16_t XPT2046::IO(uint16_t data) {
-  TERN(TOUCH_BUTTONS_HW_SPI, HardwareIO, SoftwareIO)(data);
+  return TERN(TOUCH_BUTTONS_HW_SPI, HardwareIO, SoftwareIO)(data);
 }
 
 #if ENABLED(TOUCH_BUTTONS_HW_SPI)
