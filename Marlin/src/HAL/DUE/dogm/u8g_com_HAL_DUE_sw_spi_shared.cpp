@@ -59,6 +59,7 @@
 
 #if HAS_GRAPHICAL_LCD
 
+#include "../../../inc/MarlinConfig.h"
 #include "../../shared/Delay.h"
 
 #include <U8glib.h>
