@@ -220,3 +220,6 @@ uint16_t HAL_adc_get_result();
 
 #define PLATFORM_M997_SUPPORT
 void flashFirmware(const int16_t);
+
+#define HAL_SYSTICK_VALUE (SysTick->VAL)
+#define HAL_SYSTICK_OVERFLOW_VALUE (SysTick->LOAD + 1)
